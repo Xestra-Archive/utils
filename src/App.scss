@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto+Mono|Roboto:400,700&display=swap');
+
+$textColor: #eee;
+$mainColor: #1C1E26;
+$secondaryColor: #232530;
+$thirdaryColor: #E95678;
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+@for $i from 1 through 6 {
+  h#{$i} {
+    font-weight: 700;
+    font-size: 96px / $i;
+    font-family: 'Montserrat', sans-serif;
+    margin: 18px / $i 0;
+    border-bottom: $secondaryColor 3px solid;
+  }
+}
+
+code {
+  display: inline-block;
+  font-family: 'Roboto Mono', monospace;
+  background: $secondaryColor;
+  padding: 8px;
+  margin: 4px;
+  border-radius: 2px;
+  line-height: 150%;
+}
+
+.btn {
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  background: none;
+  color: $thirdaryColor;
+  text-decoration: none;
+  padding: 8px 16px;
+  margin: 4px;
+  border: $thirdaryColor 2px solid;
+  border-radius: 100px;
+  transition: 1s;
+  line-height: 120%;
+  &:hover, &:active, &:focus {
+    background: $thirdaryColor;
+    color: $textColor;
+  }
+}
+
+.deck {
+  // max-width: 100px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  .card {
+    width: 280px;
+    min-height: 200px;
+    padding: 12px;
+    margin: 12px;
+    border: $secondaryColor 3px solid;
+    text-align: left;
+  }
+}
+
+.App {
+  .container {
+    width: 70%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+}
