@@ -36,36 +36,36 @@ const App = () => {
         <p>A collection of useful downloads that anyone can use.</p>
         <div className="deck">
           <div className="card">
-            <h4>Windows Center Taskbar</h4>
+            <h4>Center Taskbar</h4>
             <p>This executable is used to center the task bar on Windows 10.</p>
-            {/* <Download file="CenterTaskbar.zip"> */}
-            <a className="btn left" href="CenterTaskbar.exe" download>Download</a><br />
-            {/* </Download> */}
-            <a className="link" href="https://github.com/mdhiggins/CenterTaskbar">Creator</a>
+            <div className="bottom">
+              <a className="btn left" href="https://github.com/mdhiggins/CenterTaskbar/blob/master/CenterTaskbar.exe?raw=true" download>Download</a><br />
+              <a className="link" href="https://github.com/mdhiggins/CenterTaskbar">Creator</a>
+            </div>
           </div>
           <div className="card">
             <h4>Reserved</h4>
             <p>This card is reserved for future projects. Come back later to see if something new is here!</p>
-            <Download file="test.txt">
+            <div className="bottom">
               <a className="btn left">Download</a><br />
-            </Download>
-            <a className="link" href="https://github.com/mdhiggins/CenterTaskbar">Creator</a>
+              <a className="link" href="">Creator</a>
+            </div>
           </div>
           <div className="card">
             <h4>Reserved</h4>
             <p>This card is reserved for future projects. Come back later to see if something new is here!</p>
-            <Download file="test.txt">
+            <div className="bottom">
               <a className="btn left">Download</a><br />
-            </Download>
-            <a className="link" href="https://github.com/mdhiggins/CenterTaskbar">Creator</a>
+              <a className="link" href="">Creator</a>
+            </div>
           </div>
           <div className="card">
             <h4>Reserved</h4>
             <p>This card is reserved for future projects. Come back later to see if something new is here!</p>
-            <Download file="test.txt">
+            <div className="bottom">
               <a className="btn left">Download</a><br />
-            </Download>
-            <a className="link" href="https://github.com/mdhiggins/CenterTaskbar">Creator</a>
+              <a className="link" href="">Creator</a>
+            </div>
           </div>
         </div>
       </div>

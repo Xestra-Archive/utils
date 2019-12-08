@@ -1,22 +1,21 @@
 # Utils
 
 ## 😀 About The Project
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+A simple project that includes some useful utilities that anyone can use and download for themselves.
 
 ## 👿 Bugs
-- Lorem Ipsum
-- Lorem Ipsum
-- Lorem Ipsum
+- None
 
-## 🤔 What I learned
-- Lorem Ipsum
-- Lorem Ipsum
-- Lorem Ipsum
-- Lorem Ipsum
-- Lorem Ipsum
+## 🤔 What I learned/items used
+- React Downloads
+- Getting back into things
+- SASS
+- React
 
 ## 👨‍💻 Contributors
 - [Xestra](https://github.com/Xestra1)
+- [mdhiggins](https://github.com/mdhiggins)
+  - Created Center Taskbar
 
 ## 🌐 Other Information
 - [Website](https://xestra.us/)

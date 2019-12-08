@@ -69,12 +69,18 @@ code {
   text-align: center;
   flex-wrap: wrap;
   .card {
+    position: relative;
     width: 280px;
     min-height: 200px;
     padding: 12px;
     margin: 12px;
     border: $secondaryColor 3px solid;
     text-align: left;
+    .bottom {
+      position: absolute;
+      bottom: 8px;
+      width: 90%;
+    }
   }
 }
 
