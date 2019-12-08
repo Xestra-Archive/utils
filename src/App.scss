@@ -49,6 +49,18 @@ code {
   }
 }
 
+.left {
+  float: left;
+}
+
+.link {
+  float: right;
+  // display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  color: $thirdaryColor;
+  text-decoration: none;
+}
+
 .deck {
   // max-width: 100px;
   margin: auto;
